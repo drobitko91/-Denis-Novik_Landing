@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&family=Poppins:ital,wght@0,400;0,600;0,700;0,900;1,400;1,700;1,900&family=Roboto+Serif:opsz,wght@8..144,200;8..144,300&family=Space+Mono&display=swap'); </style>
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&family=Poppins:ital,wght@0,400;0,600;0,700;0,900;1,400;1,700;1,900&family=Roboto+Serif:opsz,wght@8..144,200;8..144,300&family=Space+Mono&display=swap');
 
 *,*::before,*::after {
     box-sizing: border-box;
@@ -6,14 +6,27 @@
 
 html {
     scroll-behavior: smooth;
+    font-family: 'Open Sans', sans-serif;
+    color: black;
 }
 
-body, figure {
+body, figure, h2, p {
     margin: 0;
 }
 
 img {
     display: block;
+}
+
+h2 {
+    font-size: 34px;
+    font-weight: 700;
+    
+}
+
+p {
+    font-size: 18px;
+    font-weight: 400;
 }
 
 .container {
@@ -71,7 +84,7 @@ hr {
 
 .screen__name {
     height: 60px;
-    padding-bottom: 50px;
+    margin-bottom: 50px;
     font-size: 48px;
     font-weight: 700;
 }
@@ -83,3 +96,31 @@ hr {
 }
 
 /* first__screen end */
+
+
+/* about__me start*/
+
+.about {
+    background-color: #F6F6F6;
+    height: 500px;
+    display: flex;
+    align-items: center;
+}
+
+.about__me {
+    width: 480px;
+    margin: 0 auto;
+    text-align: center;
+
+}
+
+.title {
+    margin-bottom: 50px;
+}
+
+.text:not(:last-child) {
+    margin-bottom: 30px;
+}
+
+
+/* about__me and */
