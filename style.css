@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&family=Poppins:ital,wght@0,400;0,600;0,700;0,900;1,400;1,700;1,900&family=Roboto+Serif:opsz,wght@8..144,200;8..144,300&family=Space+Mono&display=swap'); </style>
+
+*,*::before,*::after {
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.container {
+    width: 1440px;
+    margin: 0 auto;
+}
+
+/* header start */
+
+.header {
+    width: 100%;
+}
+.header__wrapper {
+    height: 80 px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px, 120px, 0px, 120px;
+}
+
+.nav {
+    display: flex;
+    padding: 25px 472px;
+}
+
+.nav__link {
+    color: #828282;
+    font-size: 18px;
+    font-weight: 400;
+    margin-right: 40px;
+    text-decoration: none;
+    position: relative;
+}
+
+.nav__link:last-child {
+    margin-right: 0;
+}
+
+.nav__link:hover {
+    color: black;
+}
+.active {
+    color: black;
+}
+
+hr {
+    width: 970px;
+    color: #828282;
+}
+/* header end */
