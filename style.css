@@ -8,8 +8,16 @@ html {
     scroll-behavior: smooth;
 }
 
+body, figure {
+    margin: 0;
+}
+
+img {
+    display: block;
+}
+
 .container {
-    width: 1440px;
+    max-width: 970px;
     margin: 0 auto;
 }
 
@@ -18,17 +26,13 @@ html {
 .header {
     width: 100%;
 }
-.header__wrapper {
-    height: 80 px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0px, 120px, 0px, 120px;
-}
 
 .nav {
     display: flex;
-    padding: 25px 472px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .nav__link {
@@ -56,3 +60,26 @@ hr {
     color: #828282;
 }
 /* header end */
+
+
+/* first__screen start */
+
+.first__screen-wrapper {
+    background-color: #F6F6F6;
+    
+}
+
+.screen__name {
+    height: 60px;
+    padding-bottom: 50px;
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.first__screen-img {
+    width: 970px;
+    height: 387px;
+      
+}
+
+/* first__screen end */
