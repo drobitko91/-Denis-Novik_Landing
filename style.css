@@ -116,12 +116,15 @@ hr {
 }
 
 .title {
-    
     margin-bottom: 50px;
 }
 
 .text:not(:last-child) {
     margin-bottom: 30px;
+}
+
+.text1 {
+    padding: 0 2.5px;
 }
 
 /* about__me and */
@@ -141,6 +144,9 @@ hr {
     margin-bottom: 50px;
 }
 
+.skills__title h2 {
+    padding-bottom: 20px;
+}
 .products__list {
     flex-direction: row;
     display: flex;
@@ -174,3 +180,42 @@ hr {
 }
 
 /* skills end */
+
+
+/* portfolio start */
+
+.portfolio {
+    background-color: #F6F6F6;
+    
+}
+
+.title__portfolio {
+    text-align: center;
+    padding-top: 100px;
+    margin-bottom: 50px;
+}
+
+.pages__portfolio {
+    
+}
+
+.page {
+    margin-bottom: 70px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.page:last-child {
+    margin-bottom: 0;
+    padding-bottom: 70px;
+}
+
+.page figure figcaption {
+    margin-top: 40px;
+    text-align: center;
+    
+}
+
+
+/* portfolio end */
