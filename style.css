@@ -30,7 +30,7 @@ p {
 }
 
 .container {
-    max-width: 970px;
+    width: 970px;
     margin: 0 auto;
 }
 
@@ -102,9 +102,10 @@ hr {
 
 .about {
     background-color: #F6F6F6;
-    height: 500px;
+    /* height: 500px; */
     display: flex;
     align-items: center;
+    padding: 100px 0;
 }
 
 .about__me {
@@ -115,6 +116,7 @@ hr {
 }
 
 .title {
+    
     margin-bottom: 50px;
 }
 
@@ -122,5 +124,53 @@ hr {
     margin-bottom: 30px;
 }
 
-
 /* about__me and */
+
+
+/* skills start */
+
+.skills {
+    padding: 100px 0;
+    display: flex;
+    align-items: center;
+    
+}
+
+.skills__title {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.products__list {
+    flex-direction: row;
+    display: flex;
+    justify-content: space-between;
+}
+
+.products__list figure img {
+    width: auto;
+    height: 80px;
+    
+}
+
+.products {
+    width: 80px;
+    color: #828282;
+    font-size: 14px;
+    font-weight: 700;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.products figure figcaption {
+    margin-top: 25px;
+}
+.stars {
+    flex-direction: row;
+    display: flex;
+    margin-top: 60px;
+}
+
+/* skills end */
