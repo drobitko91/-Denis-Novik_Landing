@@ -139,12 +139,12 @@ hr {
     
 }
 
-.skills__title {
+.title {
     text-align: center;
     margin-bottom: 50px;
 }
 
-.skills__title h2 {
+.title h2 {
     padding-bottom: 20px;
 }
 .products__list {
@@ -195,10 +195,6 @@ hr {
     margin-bottom: 50px;
 }
 
-.pages__portfolio {
-    
-}
-
 .page {
     margin-bottom: 70px;
     display: flex;
@@ -217,5 +213,53 @@ hr {
     
 }
 
-
 /* portfolio end */
+
+
+/* footer start */
+
+.footer__block {
+    margin: 100px 0 100px 0;
+}
+
+.button {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.btn {
+    font-size: 18px;
+    font-weight: 700;
+    text-align: center;
+    color: white;
+    background-color: #070707;
+    border-radius: 22px;
+    height: 44px;
+    width: 180px;
+    padding: 0 16px 0 16px;
+    cursor: pointer;
+}
+
+.footer__link {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 310px;
+    height: 40px;
+    justify-content: center;
+    margin: 30px auto 60px;
+}
+
+.footer__link a:not(:last-child) {
+    margin-right: 50px;
+}
+
+.footer__end {
+    font-size: 14px;
+    font-weight: 400;
+    color: #828282;
+    text-align: center;
+    margin-bottom: 100px;
+}
+/* footer end */
